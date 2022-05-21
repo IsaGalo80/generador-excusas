@@ -1,18 +1,17 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
-#contenido {
-  text-align: center;
-  font-size: 40px;
-  font-weight: bold;
-  margin-top: 150px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+body {
+  background-color: blue;
 }
-.btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100px;
-  height: 60px;
-  background-color: red;
+h1 {
+  font-size: 80px;
+  background-color: orange;
+}
+h3 {
+  font-size: 40px;
+  background-color: yellow;
+}
+button {
+  background-color: green;
+  font-size: 25px;
   border-radius: 50px;
-  border-color: black;
 }
